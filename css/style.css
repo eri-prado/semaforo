@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background-color: #f3f3f3;
+
+}
+
+button {
+  font-size: .785rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-family: Helvetica, sans-serif;
+  border: none;
+  width: 125px;
+  height: 35px;
+  color: white;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button#red {
+  background-color: #dc3545;
+}
+
+button#yellow {
+  color: black;
+  background-color: #ffc107;
+}
+
+button#green {
+  background-color: #198754;
+}
+
+button#automatic {
+  background-color: #6c757d;
+}
